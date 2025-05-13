@@ -14,6 +14,7 @@ if __name__ == '__main__':
     plt.title('Distribution of Rent USD')
     plt.savefig('../outputs/rent_histogram.png')
     plt.clf()
+    
     top_countries = df['Country'].value_counts().nlargest(10).index
     df_top = df[df['Country'].isin(top_countries)]
     df_top.boxplot(column='Living_Cost_Index', by='Country', rot=45)
@@ -21,6 +22,7 @@ if __name__ == '__main__':
     plt.suptitle('')
     plt.savefig('../outputs/living_cost_boxplot.png')
     plt.clf()
+    
     avg_tuition = df.groupby('Level')['Tuition_USD'].mean()
     avg_tuition.plot(kind='bar')
     plt.title('Average Tuition by Level')
