@@ -21,3 +21,40 @@ project-root/
 └── outputs/
 ```
 
+## Usage
+
+1. Setup the Project:
+
+   * Clone the repository.
+   * Ensure you have Python installed.
+   * Install required dependencies using the requirements.txt file.
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+2. Run data ingestion:
+
+   ```bash
+   python scripts/01_data_ingestion.py
+   ```
+3. Perform data exploration:
+
+   ```bash
+   python scripts/02_data_exploration.py
+   ```
+4. Generate visualizations:
+
+   ```bash
+   python scripts/03_visualization.py
+   ```
+5. Train models and cluster data:
+
+   ```bash
+   python scripts/04_modeling.py
+   ```
+6. Compile final report:
+
+   ```bash
+   python scripts/05_reporting.py
+   ```
+
