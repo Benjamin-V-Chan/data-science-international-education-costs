@@ -58,3 +58,15 @@ project-root/
    python scripts/05_reporting.py
    ```
 
+## Requirements
+
+* Python 3.7+
+* pandas
+* matplotlib
+* scikit-learn
+
+## Acknowledgments
+
+* **dataset name:** Cost of International Education
+* **dataset author:** Adil Shamim
+* **dataset source:** [https://www.kaggle.com/datasets/adilshamim8/cost-of-international-education](https://www.kaggle.com/datasets/adilshamim8/cost-of-international-education)
